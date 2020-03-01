@@ -1,0 +1,53 @@
+body {
+    background: gray;
+    display: block;
+}
+main {
+    background: url("https://cdn-media-1.freecodecamp.org/imgr/MJAkxbh.png");
+    display: block;
+    margin: 40px;
+    padding: 30px;
+
+
+}
+header {
+    background-color: beige;
+    padding: 40px;
+    text-align: center;
+}
+#survey-form {
+    display: block;
+    padding: 10px;
+    justify-content: left;
+}
+label {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px
+}
+#radio
+#checkbox {
+    align-self: auto;
+    display: inline-block;
+}
+input {
+    border-color: lightgrey;
+}
+select {
+    background-color: white;
+}
+
+#comments {
+    border-color: lightgrey;
+    height: 100px;
+    width: 50%;
+}
+#submit {
+    border-color: lightgrey;
+    background-color: teal;
+    color: white;
+    font-weight: 700;
+    font-size: large;
+    height: 40px;
+    width: 50%;
+}

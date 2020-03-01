@@ -1,0 +1,14 @@
+body {
+    background-color: rgb(206, 200, 200);
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+li {
+    list-style-type: none;
+}

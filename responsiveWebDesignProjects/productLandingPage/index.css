@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+    background-color: grey;
+}
+#wholePage {
+    position: relative;
+}
+header {
+    position: fixed;
+	display:flex;
+	padding-top:18px;
+	justify-content:space-around;
+	flex-flow: row wrap;
+}
+.child {
+	flex-grow:1;
+}
+ul {
+	list-style-type:none;
+	display:flex;
+	flex-flow: row wrap;
+	width:400px;
+	margin:0;padding:0;
+}
+
+ul li {
+	flex-grow:1;
+	text-align:center;
+	width:100px;
+}
+
+#header-img {
+    max-width: 150px;
+}
+#form {
+    padding: 40px;
+}
+#video {
+    padding: 40px;
+}
+.container {
+	padding:150px;
+}
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
